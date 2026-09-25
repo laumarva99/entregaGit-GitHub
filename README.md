@@ -31,6 +31,11 @@ Fast-forward
  1 file changed, 96 insertions(+)
  create mode 100644 contacto/contacto.html
 
+ $ git log --oneline
+5cdf121 (HEAD -> main, origin/feature/contacto, feature/contacto) Añadir página de contacto
+436ede6 (origin/main, origin/HEAD) Crear estructura inicial del proyecto
+77cbbd3 Initial commit
+
  4- Historial después de actualizar desde GitHub.
 
  $ git log --oneline
@@ -47,3 +52,29 @@ Fast-forward
  GitHub-1.jpg | Bin 0 -> 49542 bytes
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 GitHub-1.jpg
+
+ $ git log --oneline
+1d947f1 (HEAD -> feature/contacto, origin/main, origin/HEAD, main) Añadir Imagen desde GitHub
+5cdf121 (origin/feature/contacto) Añadir página de contacto
+436ede6 Crear estructura inicial del proyecto
+77cbbd3 Initial commit
+
+
+
+## Observaciones
+
+Una breve explicación de lo que has observado al trabajar con:
+
+Ramas. Te permite hacer modificaciones o añadir ficheros sin modificar la rama principal. 
+
+Commits. Te guarda todos los cambios que hayas realizado, pero antes tienes que hacer un add anteriormente. Estos aparecen luego para ver que ha cambiado.
+
+Merge. Se utiliza para unir las modificaciones de las ramas.
+
+Push. Se hace cuando haces los commits y quieres enviar los cambios al repositoria remoto.
+
+Fetch. Se utiliza para descargar los datos del repositorio remoto, aunque no los modifica en el local. Con esto puedes ver las posibles modificaciones que haya tenido.
+
+Pull. Se utiliza para descargar el repositorio remoto dentro de tu local. Con esto puedes unificar los ficheros que tenías con los cambios que se han realizado.
+
+Cambios realizados directamente desde GitHub. Desde la página se pueden subir/eliminar ficheros o lo que quieras. Estos cambios tienen un commit que se añade al repositorio. Para poder actualizar el local debes acer un pull y así tener también los ficheros modificados. 
